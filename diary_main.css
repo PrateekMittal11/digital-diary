@@ -1,0 +1,38 @@
+
+#body{
+  float: left;
+}
+#forms{
+  float: right;
+  position: fixed;
+  margin-left: 67vw;
+}
+#name{
+  width: 30vw;
+  height: 2.5vw;
+}
+#note{
+  resize: none;
+  width: 30vw;
+  height: 25vw;
+}
+#dele{
+  width: 30vw;
+  height: 2.5vw;
+}
+
+.btn{
+  height: 2vw;
+  width: 6vw;
+  margin-top: 0.1vw;
+  margin-left: 12vw;
+  font-family: monospace;
+  font-size: 1.5vw;
+  border: none;
+  display: inline-block;
+}
+.btn:hover{
+  transition-duration: 0.4s;
+  background-color: black;
+  color: white;
+}
